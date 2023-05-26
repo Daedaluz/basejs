@@ -1,0 +1,23 @@
+{
+  "name": "basejs",
+  "version": "1.0.0",
+  "description": "Browser base64 implementation (url and standard encoding)",
+  "main": "src/base64.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daedaluz/basejs.git"
+  },
+  "author": "Tobias Assarsson",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/daedaluz/basejs/issues"
+  },
+  "homepage": "https://github.com/daedaluz/basejs#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
